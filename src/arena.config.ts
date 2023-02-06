@@ -13,7 +13,7 @@ export default Arena({
         /**
          * Define your room handlers:
          */
-        gameServer.define('my_room', MyRoom);
+        gameServer.define('fg', MyRoom);
 
     },
 
@@ -38,5 +38,6 @@ export default Arena({
         /**
          * Before before gameServer.listen() is called.
          */
-    }
+    },
+    displayLogs: true
 });
