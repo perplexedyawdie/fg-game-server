@@ -1,0 +1,8 @@
+{
+    "runtime":{
+      "majorVersion":"4"
+    },
+    "command": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "release": {},
+    "notes": ""
+  }

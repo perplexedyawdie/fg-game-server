@@ -12,4 +12,5 @@ import { listen } from "@colyseus/arena";
 import arenaConfig from "./arena.config";
 
 // Create and listen on 2567 (or PORT environment variable.)
-listen(arenaConfig);
+const PORT = (process.env.PORT as unknown as number) || 2567
+listen(arenaConfig, PORT);
